@@ -11,32 +11,32 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.S. in Electrical Engineering, Xi’an University of Technology, 2006 (GPA: 3.65/4.00)
+* M.S. in Electrical Engineering, Xi’an University of Technology, 2011 (GPA: 3.81/4.00)
+* Ph.D in Computer Engineering, University of Delaware, 2017 (GPA: 3.90/4.00)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Aug 2017 - Present: Software Engineer
+  * Twitter
+  * Duties included: 
+  * -   
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jan 2012 - Jul 2017: Research Assistant
+  * University of Delaware
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Language: Python, Scala, Java, C++, Javascript, CSS, Rust, Shell, Awk
+* Tools: 
 
 Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Profession Services
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -47,13 +47,4 @@ Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
