@@ -28,7 +28,7 @@
 
     {% if post.collection == 'publications' %}
       <h5 class="archive__item-title" itemprop="headline">
-        post.citation [<a href="{{ post.paperurl }}">PDF</a>][<a href="{{ post.bibtex }}">Bibtex</a>]
+        {{post.citation}} [<a href="{{ post.paperurl }}">PDF</a>][<a href="{{ post.bibtex }}">Bibtex</a>]
       </h5>
     {% else %}
       <h3 class="archive__item-title" itemprop="headline">
