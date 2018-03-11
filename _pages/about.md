@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: 'printf("Hello World"); || print(\'Hello World\')'
+title: "Hello World!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
