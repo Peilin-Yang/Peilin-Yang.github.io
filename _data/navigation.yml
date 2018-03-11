@@ -6,10 +6,10 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Professinal Services"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Projects"
     url: /portfolio/
         
   - title: "Blog Posts"
@@ -17,6 +17,6 @@ main:
     
   - title: "CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+  
+  - title: "Code"
+    url: /code/
