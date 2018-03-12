@@ -12,6 +12,17 @@
   {% assign title = post.title %}
 {% endif %}
 
+<script>
+$('.bibtex').magnificPopup({
+  items: {
+      src: '<div class="white-popup"><pre>{{ post.bibtex }}</pre></div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
+</script>
+
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -28,7 +39,7 @@
 
     {% if post.collection == 'publications' %}
       <li>
-        {{post.citation}} ([<a class="pub-link" href="{{ post.paperurl }}" rel="permalink">PDF</a>][<a class="pub-link" href="{{ post.bibtex }}" rel="permalink">Bibtex</a>])
+        {{post.citation}} ([<a class="pub-link" href="{{ post.paperurl }}" rel="permalink">PDF</a>][<a class="bibtex" href="{{ post.bibtex }}" rel="permalink">Bibtex</a>])
       </li>
     {% else %}
       <h3 class="archive__item-title" itemprop="headline">
