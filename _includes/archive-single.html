@@ -24,13 +24,13 @@ $(window).load(function () {
 });
 </script>
 
-<textarea class="hover_bkgr_fricc">
+<div class="hover_bkgr_fricc">
   <span class="helper"></span>
   <div>
     <div class="popupCloseButton">X</div>
-    <pre id="bibtex-popup-content"></pre>
+    <textarea><pre id="bibtex-popup-content"></pre></textarea>
   </div>
-</textarea>
+</div>
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
