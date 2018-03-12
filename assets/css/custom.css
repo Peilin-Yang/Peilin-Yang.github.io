@@ -16,12 +16,12 @@ span.model {
 span.manet {
   padding-left: 5px;
   border-left: 5px solid;
-  border-color: #f4c20d;
+  border-color: #000000;
 }
 span.cs {
   padding-left: 5px;
   border-left: 5px solid;
-  border-color: #db3236;
+  border-color: #f4c20d;
 }
 
 article.bigdata {
@@ -42,12 +42,12 @@ article.model {
 article.manet {
   padding-left: 5px;
   border-left: 5px solid;
-  border-color: #f4c20d;
+  border-color: #000000;
 }
 article.cs {
   padding-left: 5px;
   border-left: 5px solid;
-  border-color: #db3236;
+  border-color: #f4c20d;
 }
 
 /* Popup box BEGIN */
@@ -107,3 +107,7 @@ article.cs {
     display: inline-block;
 }
 /* Popup box BEGIN */
+
+strong.conference {
+	color: #b20101;
+}
