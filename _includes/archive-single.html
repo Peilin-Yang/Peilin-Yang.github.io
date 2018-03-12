@@ -15,11 +15,8 @@
 <script>
 $(window).load(function () {
   $(".trigger_popup_fricc").click(function(){
-    $("#bibtex-popup-content").text($(this).attr("data"));
+    $("#bibtex-popup-content").text($(this).attr("rel"));
     $('.hover_bkgr_fricc').show();
-  });
-  $('.hover_bkgr_fricc').click(function(){
-    $('.hover_bkgr_fricc').hide();
   });
   $('.popupCloseButton').click(function(){
     $('.hover_bkgr_fricc').hide();
@@ -51,7 +48,7 @@ $(window).load(function () {
 
     {% if post.collection == 'publications' %}
       <li>
-        {{post.citation}} ([<a class="pub-link" href="{{ post.paperurl }}" rel="permalink">PDF</a>][<a class="trigger_popup_fricc" data="{{ post.bibtext }}">Bibtex</a>])
+        {{post.citation}} ([<a class="pub-link" href="{{ post.paperurl }}" rel="permalink">PDF</a>][<a class="trigger_popup_fricc" rel="{{ post.bibtext }}">Bibtex</a>])
       </li>
     {% else %}
       <h3 class="archive__item-title" itemprop="headline">
