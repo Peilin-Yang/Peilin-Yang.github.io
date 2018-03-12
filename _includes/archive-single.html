@@ -47,7 +47,7 @@ $(window).load(function () {
     {% endif %}
 
     {% if post.collection == 'publications' %}
-      <li>
+      <li class="{{ post.pubtag }}">
         {{post.citation}} ([<a class="pub-link" href="{{ post.paperurl }}" rel="permalink">PDF</a>][<a class="trigger_popup_fricc" data-content="{{ post.bibtex }}">Bibtex</a>])
       </li>
     {% else %}
