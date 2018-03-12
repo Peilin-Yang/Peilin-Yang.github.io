@@ -3,6 +3,7 @@ title: "Estimating Retrieval Performance Bound for Single Term Queries"
 collection: publications
 paperurl: 'http://peilin-yang.github.io/files/pub/ictir2016_short.pdf'
 talk: 'http://peilin-yang.github.io/files/slides/ICTIR2016_Boundary.pdf'
+demo: 'http://peilin-yang.github.io/files/slides/ictir2016_short_demo.pptx'
 pubtag: 'model'
 citation: '<strong>Peilin Yang</strong> and Hui Fang. <strong><i>Estimating Retrieval Performance Bound for Single Term Queries</i></strong>. In Proceedings of the 2016 ACM International Conference on the Theory of Information Retrieval (ICTIR&#39;2016). ACM, New York, NY, USA, 237-240.'
 bibtex: '<pre>@inproceedings{Yang:2016:ERP:2970398.2970428,<br>
