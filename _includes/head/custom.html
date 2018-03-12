@@ -36,4 +36,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 <!-- end custom head snippets -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/mini-btn.css"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/custom.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+$(window).load(function () {
+  $(".trigger_popup_fricc").click(function(){
+    $("#bibtex-popup-content").html($(this).attr("data-content"));
+    $('.hover_bkgr_fricc').show();
+  });
+  $('.popupCloseButton').click(function(){
+    $('.hover_bkgr_fricc').hide();
+  });
+});
+</script>
+
+<div class="hover_bkgr_fricc">
+  <span class="helper"></span>
+  <div>
+    <div class="popupCloseButton">X</div>
+    <p id="bibtex-popup-content"></p>
+  </div>
+</div>

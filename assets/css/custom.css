@@ -1,5 +1,43 @@
-.pub-link {
-  color: #5c6266;
+span.tool {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #3cba54;
+}
+span.model {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #4885ed;
+}
+span.manet {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #f4c20d;
+}
+span.cs {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #db3236;
+}
+
+article.tool {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #3cba54;
+}
+article.model {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #4885ed;
+}
+article.manet {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #f4c20d;
+}
+article.cs {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #db3236;
 }
 
 /* Popup box BEGIN */
@@ -26,8 +64,11 @@
     max-width: 550px;
     min-height: 100px;
     vertical-align: middle;
-    width: 80%;
-    position: relative;
+    width: 80%; 
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;  
+	left: 50%;
     border-radius: 8px;
     padding: 5px 2%;
 }

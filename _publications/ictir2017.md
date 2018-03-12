@@ -4,12 +4,12 @@ collection: publications
 permalink: /publication/ictir2017
 paperurl: 'http://peilin-yang.github.io/files/pub/ICTIR2017.pdf'
 pubtag: 'model'
-citation: '<strong>Peilin Yang</strong> and Hui Fang. <i>Can Short Queries Be Even Shorter?</i>. In Proceedings of the 2017 ACM on International Conference on the Theory of Information Retrieval (ICTIR&#39;2017). ACM, New York, NY, USA, 43-50.'
+citation: '<strong>Peilin Yang</strong> and Hui Fang. <strong><i>Can Short Queries Be Even Shorter?</i></strong>. In Proceedings of the 2017 ACM on International Conference on the Theory of Information Retrieval (ICTIR&#39;2017). ACM, New York, NY, USA, 43-50.'
 bibtex: '<pre>@inproceedings{Yang:2017:SQE:3121050.3121056,<br>
  author = {Yang, Peilin and Fang, Hui},<br>
  title = {Can Short Queries Be Even Shorter?},<br>
  booktitle = {Proceedings of the ACM SIGIR International Conference on Theory of Information Retrieval},<br>
- series = {ICTIR '17},<br>
+ series = {ICTIR &#39;17},<br>
  year = {2017},<br>
  isbn = {978-1-4503-4490-6},<br>
  location = {Amsterdam, The Netherlands},<br>
