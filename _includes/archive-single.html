@@ -12,26 +12,6 @@
   {% assign title = post.title %}
 {% endif %}
 
-<script>
-$(window).load(function () {
-  $(".trigger_popup_fricc").click(function(){
-    $("#bibtex-popup-content").html($(this).attr("data-content"));
-    $('.hover_bkgr_fricc').show();
-  });
-  $('.popupCloseButton').click(function(){
-    $('.hover_bkgr_fricc').hide();
-  });
-});
-</script>
-
-<div class="hover_bkgr_fricc">
-  <span class="helper"></span>
-  <div>
-    <div class="popupCloseButton">X</div>
-    <p id="bibtex-popup-content"></p>
-  </div>
-</div>
-
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
