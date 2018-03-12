@@ -14,6 +14,26 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<script>
+$(window).load(function () {
+  $(".trigger_popup_fricc").click(function(){
+    $("#bibtex-popup-content").html($(this).attr("data-content"));
+    $('.hover_bkgr_fricc').show();
+  });
+  $('.popupCloseButton').click(function(){
+    $('.hover_bkgr_fricc').hide();
+  });
+});
+</script>
+
+<div class="hover_bkgr_fricc">
+  <span class="helper"></span>
+  <div>
+    <div class="popupCloseButton">X</div>
+    <p id="bibtex-popup-content"></p>
+  </div>
+</div>
+
 <div id="main" role="main">
   {% include sidebar.html %}
 

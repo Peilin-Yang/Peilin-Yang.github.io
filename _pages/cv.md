@@ -18,9 +18,8 @@ Education
 Work experience
 ======
 * Aug 2017 - Present: Software Engineer
-  * Twitter
-  * Duties included: 
-  * -   
+  - Twitter
+  - Duties included: 
 
 * Jan 2012 - Jul 2017: Research Assistant
   * University of Delaware
