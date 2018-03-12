@@ -13,14 +13,27 @@
 {% endif %}
 
 <script>
-$('.bibtex').magnificPopup({
-  items: {
-      src: '<div class="white-popup"><pre>{{ post.bibtex }}</pre></div>',
-      type: 'inline'
-  },
-  closeBtnInside: true
+$(window).load(function () {
+  $(".trigger_popup_fricc").click(function(ele){
+    $("#bibtex-popup-content").text(ele.attr("data"));
+    $('.hover_bkgr_fricc').show();
+  });
+  $('.hover_bkgr_fricc').click(function(){
+    $('.hover_bkgr_fricc').hide();
+  });
+  $('.popupCloseButton').click(function(){
+    $('.hover_bkgr_fricc').hide();
+  });
 });
 </script>
+
+<div class="hover_bkgr_fricc">
+  <span class="helper"></span>
+  <div>
+    <div class="popupCloseButton">X</div>
+    <pre id="bibtex-popup-content"></pre>
+  </div>
+</div>
 
 
 <div class="{{ include.type | default: "list" }}__item">
@@ -39,7 +52,7 @@ $('.bibtex').magnificPopup({
 
     {% if post.collection == 'publications' %}
       <li>
-        {{post.citation}} ([<a class="pub-link" href="{{ post.paperurl }}" rel="permalink">PDF</a>][<a class="bibtex" href="{{ post.bibtex }}" rel="permalink">Bibtex</a>])
+        {{post.citation}} ([<a class="pub-link" href="{{ post.paperurl }}" rel="permalink">PDF</a>][<a class="trigger_popup_fricc" data="{{ post.bibtext }}">Bibtex</a>])
       </li>
     {% else %}
       <h3 class="archive__item-title" itemprop="headline">
