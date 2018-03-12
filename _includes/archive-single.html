@@ -14,8 +14,8 @@
 
 <script>
 $(window).load(function () {
-  $(".trigger_popup_fricc").click(function(ele){
-    $("#bibtex-popup-content").text(ele.attr("data"));
+  $(".trigger_popup_fricc").click(function(){
+    $("#bibtex-popup-content").text(this.attr("data"));
     $('.hover_bkgr_fricc').show();
   });
   $('.hover_bkgr_fricc').click(function(){
