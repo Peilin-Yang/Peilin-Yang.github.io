@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+<span class="bigdata">Big Data</span> 
 <span class="tool">IR Tools</span> 
 <span class="model">Model Analysis</span> 
 <span class="cs">Contextual Suggestion</span> 
@@ -16,6 +17,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications %}
+{% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}

@@ -1,3 +1,8 @@
+span.bigdata {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #8a2be2;
+}
 span.tool {
   padding-left: 5px;
   border-left: 5px solid;
@@ -19,6 +24,11 @@ span.cs {
   border-color: #db3236;
 }
 
+article.bigdata {
+  padding-left: 5px;
+  border-left: 5px solid;
+  border-color: #8a2be2;
+}
 article.tool {
   padding-left: 5px;
   border-left: 5px solid;
