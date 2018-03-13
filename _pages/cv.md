@@ -17,33 +17,31 @@ Education
 
 Work experience
 ======
-* Aug 2017 - Present: Software Engineer
-  - Twitter
-  - Duties included: 
+* **Software Engineer at Twitter Inc. (Aug 2017 - Present)**
+  - Design and Maintain Interaction Counter pipeline with Kappa Architecture, mainly responsible for persistent storage.
+  - Design and ship Twitter Impression Count/Rollups pipeline which refactors from the current Lambda implementation.
+  - Maintain and fix DAU/MAU pipeline. 
+  - **Skills**: Scalding, Presto, ScyllaDB, Hadoop, Scala, Java
 
-* Jan 2012 - Jul 2017: Research Assistant
-  * University of Delaware
+* **Research Assistant at University of Delaware (Jan 2012 - Jul 2017)**
+  - Published more than 20 high-profile conference/journal papers (SIGIR, ICTIR, TREC, ECIR, SIGMOD)
+  - Give more than 5 talks on various conferences 
+  - **Skills**: Python, matplotlib, Latex, Tensorflow, PHP, Javascript
   
 Skills
 ======
-* Programming Language: Python, Scala, Java, C++, Javascript, CSS, Rust, Shell, Awk
-* Tools: 
+* **Programming Language**: Python, Scala, Java, C++, Javascript, CSS, Rust, Shell, Awk
+* **Tools**: Scalding, Spark, Scylla, Presto/Zeppelin, Hadoop
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Profession Services
+Services
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.services reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 

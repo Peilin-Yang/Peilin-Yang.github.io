@@ -7,7 +7,7 @@ author_profile: true
 
 <span class="bigdata">Big Data</span> 
 <span class="tool">IR Tools</span> 
-<span class="model">Model Analysis</span> 
+<span class="model">IR Ranking Models</span> 
 <span class="cs">Contextual Suggestion</span> 
 <span class="manet">MANET</span>
 
