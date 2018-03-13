@@ -9,17 +9,17 @@ author_profile: true
 
 ## PC Members: 
 
-  * ACM Special Interest Group on Information Retrieval Conference (SIGIR&#39;2018)
-  * ACM Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD&#39;2018)
-  * The Lucene for Information Access and Retrieval Research Workshop (LIARR&#39;2017)
-  * IEEE International Conference on Open Source System and Technologies (ICOSST&#39;2016, ICOSST&#39;2017)
-  * iCatse Symposium on Electrical Engineering (ISEE&#39;2017). 
+  * ACM Special Interest Group on Information Retrieval Conference (<strong class="conference"><i>SIGIR&#39;2018</i></strong>)
+  * ACM Special Interest Group on Knowledge Discovery and Data Mining (<strong class="conference"><i>SIGKDD&#39;2018</i></strong>)
+  * The Lucene for Information Access and Retrieval Research Workshop (<strong class="conference"><i>LIARR&#39;2017</i></strong>)
+  * IEEE International Conference on Open Source System and Technologies (<strong class="conference"><i>ICOSST&#39;2016, ICOSST&#39;2017</i></strong>)
+  * iCatse Symposium on Electrical Engineering (<strong class="conference"><i>ISEE&#39;2017</i></strong>). 
 
 ## Reviewer: 
 
-  * European Conference on Information Retrieval (ECIR&#39;2018)
-  * Asia Information Retrieval Societies (AIRS&#39;2017)
-  * ACM International Conference on Web Search and Data Mining (WSDM&#39;2017)
+  * European Conference on Information Retrieval (<strong class="conference"><i>ECIR&#39;2018</i></strong>)
+  * Asia Information Retrieval Societies (<strong class="conference"><i>AIRS&#39;2017</i></strong>)
+  * ACM International Conference on Web Search and Data Mining (<strong class="conference"><i>WSDM&#39;2017</i></strong>)
 
 
 ## Editorial Board: 
