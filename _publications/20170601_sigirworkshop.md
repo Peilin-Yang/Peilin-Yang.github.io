@@ -1,7 +1,7 @@
 ---
 title: "The Lucene for Information Access and Retrieval Research (LIARR) Workshop at SIGIR 2017"
 collection: publications
-paperurl: 'http://peilin-yang.github.io/files/pub/Azzopardi_etal_SIGIR2017.pdf'
+paperurl: '/files/pub/Azzopardi_etal_SIGIR2017.pdf'
 pubtag: 'tool'
 citation: 'Leif Azzopardi, Matt Crane, Hui Fang, Grant Ingersoll, Jimmy Lin, Yashar Moshfeghi, Harrisen Scells, <strong>Peilin Yang</strong>, and Guido Zuccon. <strong><i>The Lucene for Information Access and Retrieval Research (LIARR) Workshop at SIGIR 2017</i></strong>. In Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (<strong class="conference"><i>SIGIR&#39;2017</i></strong>). ACM, New York, NY, USA, 1429-1430.'
 bibtex: '<pre>@inproceedings{Azzopardi:2017:LIA:3077136.3084374,<br>

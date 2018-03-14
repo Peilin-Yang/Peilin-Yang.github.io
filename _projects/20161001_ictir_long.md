@@ -1,8 +1,8 @@
 ---
 title: "A Reproducibility Study of Information Retrieval Models"
 collection: publications
-paperurl: 'http://peilin-yang.github.io/files/pub/ictir2016_long.pdf'
-talk: 'http://peilin-yang.github.io/files/slides/ICTIR2016_Reproduce.pdf'
+paperurl: '/files/pub/ictir2016_long.pdf'
+talk: '/files/slides/ICTIR2016_Reproduce.pdf'
 demo: 'https://rise.eecis.udel.edu/'
 pubtag: 'model'
 citation: '<strong>Peilin Yang</strong> and Hui Fang. <strong><i>A Reproducibility Study of Information Retrieval Models</i></strong>. In Proceedings of the 2016 ACM International Conference on the Theory of Information Retrieval (<strong class="conference"><i>ICTIR&#39;2016</i></strong>). ACM, New York, NY, USA, 77-86.'
