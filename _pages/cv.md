@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<span><a href="/files/CV-Peilin_Yang.pdf"><i class="fa fa-fw fa-cloud-download"></i></a></span>
+<span><a class="bttn-minimal bttn-sm bttn-primary" href="/files/CV-Peilin_Yang.pdf"><i class="fa fa-fw fa-cloud-download"></i>CV in PDF</a></span>
 
 Education
 ======
@@ -23,17 +23,17 @@ Work experience
   - Design and Maintain Interaction Counter pipeline with Kappa Architecture, mainly responsible for persistent storage.
   - Design and ship Twitter Impression Count/Rollups pipeline which refactors from the current Lambda implementation.
   - Maintain and fix DAU/MAU pipeline. 
-  - **Skills**: Scalding, Presto, ScyllaDB, Hadoop, Scala, Java
+  - **Skills**: Scalding, Presto, ScyllaDB, Hadoop, Scala, Java, Docker, Ansible
 
 * **Research Assistant at University of Delaware (Jan 2012 - Jul 2017)**
   - Published more than 20 high-profile conference/journal papers (SIGIR, ICTIR, TREC, ECIR, SIGMOD)
   - Give more than 5 talks on various conferences 
-  - **Skills**: Python, matplotlib, Latex, Tensorflow, PHP, Javascript
+  - **Skills**: Python, matplotlib, Latex, Tensorflow, PHP, Javascript, Docker
   
 Skills
 ======
 * **Programming Language**: Python, Scala, Java, C++, Javascript, CSS, Rust, Shell, Awk
-* **Tools**: Scalding, Spark, Scylla, Presto/Zeppelin, Hadoop
+* **Tools**: Scalding, Spark, Scylla, Presto/Zeppelin, Hadoop, Docker, Ansible, Tensorflow
 
 Publications
 ======
