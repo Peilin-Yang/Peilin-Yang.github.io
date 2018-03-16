@@ -32,7 +32,7 @@ Work experience
   
 Skills
 ======
-* **Programming Language**: Python, Scala, Java, C++, Javascript, CSS, Rust, Shell, Awk
+* **Programming Languages**: Python, Scala, Java, C++, Javascript, CSS, Rust, Shell, Awk
 * **Tools**: Scalding, Spark, Scylla, Presto/Zeppelin, Hadoop, Docker, Ansible, Tensorflow
 
 Publications
