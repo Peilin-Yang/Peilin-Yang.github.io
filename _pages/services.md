@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## PC Members: 
+## PC Member: 
 
   * ACM Special Interest Group on Information Retrieval Conference (<strong class="conference"><i>SIGIR&#39;2018</i></strong>)
   * ACM Special Interest Group on Knowledge Discovery and Data Mining (<strong class="conference"><i>SIGKDD&#39;2018</i></strong>)
